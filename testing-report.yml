@@ -1,0 +1,116 @@
+---
+- summary: |
+    Проверка входа пользователя с существующими логином и паролем
+  status: fail
+
+- summary: |
+    Проверка входа пользователя с несуществующими логином и паролем
+  status: fail
+
+- summary: |
+    Успешная регистрация пользователя
+  status: fail
+
+- summary: |
+    Добавление товара в корзину
+  status: fail
+
+- summary: |
+    Успешное добавление товара в корзину
+  status: pass
+
+- summary: |
+    Успешное добавление нескольких товаров в корзину
+  status: pass
+
+- summary: |
+    Проверка переключения языка интерфейса
+  status: fail
+
+- summary: |
+    Фильтрация по одному бренду
+  status: pass
+
+- summary: |
+    Множественный выбор бренда
+  status: pass 
+
+- summary: |
+    Сброс фильтра
+  status: fail
+
+- summary: |
+    Фильтрация по одной категории
+  status: pass
+
+- summary: |
+    Фильтрация товаров в наличии
+  status: pass
+
+- summary: |
+    Комбинация фильтров
+  status: fail
+
+- summary: |
+    Фильтрация цены
+  status: pass
+
+- summary: |
+    Фильтрация некорректной цены
+  status: fail
+
+- summary: |
+    Диапазон цен + другие фильтры
+  status: pass
+
+- summary: |
+    Поиск по точному названию товара
+  status: pass
+
+- summary: |
+    Поиск по части названия
+  status: pass
+
+- summary: |
+    Поиск по категории
+  status: fail
+
+- summary: |
+    Поиск с фильтрами
+  status: pass
+
+- summary: |
+    Поиск с опечаткой
+  status: fail
+
+- summary: |
+    Поиск несуществующего товара
+  status: pass
+
+- summary: |
+    Автодополнение в поиске
+  status: fail
+
+- summary: |
+    Переход на следующую страницу
+  status: pass
+
+- summary: |
+    Возврат на предыдущую страницу
+  status: pass
+
+- summary: |
+    Сохранение фильтров при переключении
+  status: fail
+
+- summary: |
+    Оформление заказа
+  status: fail
+
+- summary: |
+    Изменение состава заказа на этапе оформления
+  status: fail
+
+- summary: |
+    Статус заказа
+  status: fail
